@@ -57,3 +57,5 @@ LOGGING = {
         "level": "DEBUG",
     },
 }
+
+AI_BYPASS = config("AI_BYPASS", default=False, cast=bool)
